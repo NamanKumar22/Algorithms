@@ -3,3 +3,6 @@ This repository contains the solution to Leetcode problem 490 - "The Maze." The 
 
 Solution Approach
 The solution to the "Maze" problem is implemented using Depth-First Search (DFS) with backtracking. The algorithm explores potential paths in the maze and marks visited cells to prevent cycles. The DFS approach allows the algorithm to search through multiple paths efficiently until it reaches the destination or finds that there is no valid path.
+
+Implementation
+The solution is written in Python and encapsulated in a function hasPath(maze, start, destination). The function takes three parameters: maze, the 2D grid representing the maze; start, a tuple with the starting point coordinates; and destination, a tuple with the destination point coordinates.
